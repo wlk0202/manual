@@ -1,5 +1,5 @@
 # manual
-* GetDlogItemInt () 및 SetDlgItemInt를 가진 한 덧셈 계산기 <br><br>
+* GetDlogItemInt () 및 SetDlgItemInt를 활용한 덧셈 계산기 <br><br>
 1)비주얼 스튜 2019를 실행한다.<br>
 2)새 프로젝트 만들기를 클릭한다.<br>
 3)검색 할 수 있는 곳에 mfc를 치고 검색 결과로 나온 mfc앱을 더블 클릭한다.<br>
@@ -27,7 +27,7 @@
 17)그리고 로컬 windows 디버거를 누르거나 키보드에서 F5를 누르면 실행이 되고 맨위의 Edit Control에 임의의 숫자를 넣고
   그 아래 Edit Control에도 임의의 숫자를 넣은 후 +버튼을 누르면 두 숫자의 합이 맨 아래의 Edit Control에 나오게 된다.<br><br><br>
 * 에디트 컨트롤에 정수 변수를 추가하고, UpdateData() 함수를 활용하여 계산기 만들기<br><br>
-1) 처음 설정부분은 GetDlogItemInt () 및 SetDlgItemInt를 가진 한 덧셈 계산기의 1)에서 15)까지의 내용과 같기에 위의 내용 참조.<br><br>
+1) 처음 설정부분은 GetDlogItemInt () 및 SetDlgItemInt를 활용한 덧셈 계산기의 1)에서 15)까지의 내용과 같기에 위의 내용 참조.<br><br>
 2) Edit Control 중 맨위의 것을 선택해 오른쪽 클릭을 해주고 클릭 했을 때 뜨는 창에서 변수 추가하기 하는 부분을 클릭해준다.<br><br>
 3) 클릭했을 때 뜨는 목록중 범주 부분을 값으로 바꿔주고 이름 부분은 m_a, 변수 형식은 int로 바꿔주고 마침을 누른다.<br><br>
 4) 나머지 두 Edit Control도 같은 형식으로 m_a로 바꿔준 Edit Control 밑의 Edit Control은 m_b로 나머지 Edit Control은
